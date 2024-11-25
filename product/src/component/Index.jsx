@@ -49,6 +49,7 @@ function Index({search}) {
        </div>
       <div className="conte">
       <h3>{product.title}</h3>
+      {/* <h2 className="card-title">{product.title}</h2>  */}
       <p className='p1'>Price: ${product.price}</p>
       <p className='p2'>{product.description}</p>
       </div>
