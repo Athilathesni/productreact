@@ -20,37 +20,30 @@
   .details-content {
     flex: 1;
   }
-  
   .details-content h2 {
     font-size: 2em;
-    color: #333;
+    color: #630404;
     margin: 10px 0;
   }
   
-  .details-content p {
+   .p1 {
     font-size: 1em;
     color: #666;
     margin: 10px 0;
   }
-  
-  .details-content p:last-of-type {
+  .p2{
+    color: green;
     font-weight: bold;
-    font-size: 1.2em;
-    color: #222;
   }
-  
   .details-content button {
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
-    background-color: #007bff;
+    background-color: steelblue;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
-  .details-content button:hover {
-    background-color: #0056b3;
-  }
   
